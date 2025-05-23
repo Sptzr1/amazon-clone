@@ -1,5 +1,5 @@
 import { type NextRequest, NextResponse } from "next/server"
-import { auth0 } from "@/lib/auth/auth0-config"
+import { auth0 } from "@/lib/auth/auth0"
 
 export async function GET(req: NextRequest) {
   try {

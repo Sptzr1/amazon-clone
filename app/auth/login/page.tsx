@@ -1,5 +1,5 @@
 import { auth0 } from "@/lib/auth/auth0";
-import './globals.css';
+import '@/styles/globals.css';
 
 export default async function Home() {
   // Fetch the user session
